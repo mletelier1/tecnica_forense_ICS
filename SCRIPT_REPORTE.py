@@ -5,8 +5,8 @@ from fpdf import FPDF
 from datetime import datetime
 
 # Configuración de directorios
-infectados = "/Users/matiasletelier/Library/CloudStorage/GoogleDrive-matias@simetria.cl/Mi unidad/etapa_presentacion/TRAFICO_INFECTADO/"
-normales = "/Users/matiasletelier/Library/CloudStorage/GoogleDrive-matias@simetria.cl/Mi unidad/etapa_presentacion/TRAFICO_NORMAL/"
+infectados = "DIR/TRAFICO_INFECTADO/"
+normales = "DIR/TRAFICO_NORMAL/"
 
 # Validar directorios y pedir rutas si no existen
 if not os.path.isdir(infectados):
